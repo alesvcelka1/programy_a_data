@@ -1,0 +1,101 @@
+body {
+
+    margin:  auto;
+    padding: 20px;
+    background-color: white;
+    text-align: left;
+
+}
+.main1 {
+  width: 1160px;
+  margin: 20px auto;
+  border: 1px solid gray;
+  padding: 20px; 
+  background-color: white;
+}
+h1{
+  text-align: center ;
+  background-color: orangered;
+  color: whitesmoke;
+}
+h2,h3{
+  text-align: center;
+  font-size: 160%;
+}
+a{ text-align: center;
+    color:red;
+    text-decoration: none;
+}
+a:hover{ text-align: center;
+    background-color: red;
+    color: white;
+}
+.topnav {
+    background-color: black;
+    overflow: hidden;
+  }
+  .topnav a {
+    display: block;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 17px;
+
+  }
+  .topnav a:hover {
+    background-color: rgb(255, 214, 153);
+    color: black;
+  }
+  .topnav a.active {
+    background-color: orangered;
+    color: white;
+  }
+  .flex-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    }
+    .flex-container > div {
+      background-color: bisque;
+      border: 1px solid gray;
+      margin: 20px;
+      padding: 10px;
+      width: 46%;
+  }
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+  }
+  .center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    
+  }
+  .img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  figure {
+    
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+  
+    margin: 0.5em;
+    padding: 0.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
